@@ -1,0 +1,53 @@
+header {
+	background-color: red;
+}
+
+h1 {
+	background-color: aqua;
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+	font-family: cursive;
+}
+
+.container {
+	display: grid;
+	border: 2px solid black;
+	height: 512px;
+	width: 512px;
+	margin: 50px auto;
+	/*grid-template: repeat(20, 1fr) / repeat(20, 1fr);*/
+}
+
+.cell {
+	size: 1fr;
+}
+
+.bruh {
+	text-align: center;
+}
+
+.bruh * {
+	font-family: cursive;
+	padding: 20px;
+}
+
+.reset {
+	background-color: red;
+}
+
+.change-size {
+	background-color: orange;
+}
+
+.black {
+	background-color: yellow;
+}
+
+.random {
+	background-color: green;
+}
+
+.shading {
+	background-color: blue;
+}
