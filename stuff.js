@@ -1,8 +1,8 @@
 let defaultSize = 16; //sets default size for the grid and cell numbers
 
-let color = "black";
+let color = "black"; //sets default color scheme as black
 
-let container = document.getElementById("cont");
+let container = document.getElementById("cont"); //sets default grid size
 container.style.gridTemplate =
 	"repeat(" + defaultSize + ", 1fr) / repeat(" + defaultSize + ", 1fr)";
 
@@ -115,7 +115,7 @@ function sizeChange() {
 	makeCells(desiredSize, color);
 	cellNodeList = document.querySelectorAll(".cell");
 }
-
+// allows the random color function to work
 function RNG() {
 	return Math.floor(Math.random() * 255);
 }
